@@ -4,6 +4,8 @@ a<-'Kiev' ## character
 print(class(a))
 ```
 ```R
+[1] "character"
+```
 b<- 5.3 ## numeric
 print(class(b))
 ```
