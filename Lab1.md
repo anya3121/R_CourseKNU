@@ -8,28 +8,32 @@ print(class(a))
 [1] "character"
 ```
 ```R
-b<- 5.3 ## numeric
+## numeric
+b<- 5.3 
 print(class(b))
 ```
 ```R
 [1] "numeric"
 ```
 ```R
-c<- 123L ## integer
+## integer
+c<- 123L 
 print(class(c))
 ```
 ```R
 [1] "integer"
 ```
 ```R
-d<-5+2i ## complex
+## complex
+d<-5+2i
 print(class(d))
 ```
 ```R
 [1] "complex"
 ```
 ```R
-e<- TRUE ## logical
+## logical
+e<- TRUE 
 print(class(e))
 ```
 ```R
@@ -65,3 +69,22 @@ print(c)
  [76] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
  [91] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
  ```
+Створити наступну матрицю за допомогою matrix, та за допомогою cbind
+або rbind:
+0.5 1.3 3.5
+3.9 131 2.8
+0 2.2 4.6
+2 7 5.1
+```R
+> x<-c(0.5, 3.9, 0,2)
+> y<-c(1.3,133,2.2,7)
+> z<-c(3.5,2.8,4.6,5.1)
+> cbind(x,y,z)
+```
+```R
+       x     y   z
+[1,] 0.5   1.3 3.5
+[2,] 3.9 133.0 2.8
+[3,] 0.0   2.2 4.6
+[4,] 2.0   7.0 5.1
+```
