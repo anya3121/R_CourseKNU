@@ -113,6 +113,16 @@ print(z[!is.na(z)])
 ```R 
 [1] 1 2 3 4 5
 ```
-
+```R
+print(mean(z,na.rm=TRUE)
+```
+```R
+[1] 3
+```
+```R 
+print(mean(z))
+```
+```R
+[1] NA
 
  
