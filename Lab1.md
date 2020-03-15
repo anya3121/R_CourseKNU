@@ -132,5 +132,29 @@ length(which(is.na(x)))
 ```R
 [1] 3
 ```
-Завдання 7.
-
+Завдання 7.Створити довільний data frame та вивести в консоль
+```R
+x <- data.frame( id = 1:5, name = c( 'Anna', 'Kate', 'Max', 'Jordan', 'July'))
+print(x)
+```
+```R
+  id   name
+1  1   Anna
+2  2   Kate
+3  3    Max
+4  4 Jordan
+5  5   July
+```
+Завдання 8. Змінити імена стовпців цього data frame
+```R
+> names(x)<-c('number','first_name')
+> print(x)
+```
+```R
+  number first_name
+1      1       Anna
+2      2       Kate
+3      3        Max
+4      4     Jordan
+5      5       July
+```
