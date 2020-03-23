@@ -57,9 +57,9 @@ print(my_ifelse(x,'>', 9))
 Завдання 4.  Функція columnmean(x, removeNA), яка розраховує середнє значення (mean) по кожному стовпцю матриці, або data frame. 
 Логічний параметр removeNA вказує, чи видаляти NA значення. По замовчуванню він дорівнює TRUE.
 ```R
-colomnmean <- function (a,removeNa =TRUE) colMeans( a, na.rm= removeNa) 
-a<-cbind(c(3,6,9,NA,15),c(2,NA,4,NA,12),c(16,12,8,4,2))
-print(a)
+colomnmean <- function (x,removeNa =TRUE) colMeans( x, na.rm= removeNa) 
+x<-cbind(c(3,6,9,NA,15),c(2,NA,4,NA,12),c(16,12,8,4,2))
+print(x)
 ```
 ```R
      [,1] [,2] [,3]
@@ -70,13 +70,13 @@ print(a)
 [5,]   15   12    2
 ```
 ```R
-print(colomnmean(a))
+print(colomnmean(x))
 ```
 ```R
 [1] 8.25 6.00 8.40
 ```
 ```R
- print(colomnmean(a, FALSE))
+ print(colomnmean(x, FALSE))
  ```
  ```R
  [1]  NA  NA 8.4
