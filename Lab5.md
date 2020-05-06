@@ -1,5 +1,6 @@
+Для даного завдання було додано на Github файл pmean.R (https://github.com/anya3121/R_CourseKNU/blob/master/pmean.R), який містить усі використанні тут функції 
 Завдання 1.
-Результати роботи функції pmean :
+Результати роботи функції pmean:
 ```
 pmean("R/specdata", "sulfate", 1:10)
 ```
